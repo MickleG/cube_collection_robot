@@ -1,0 +1,4 @@
+To find where the python files are:
+1. src
+2. sensors for sensor related stuff, robot_control for FSM and path
+3. src

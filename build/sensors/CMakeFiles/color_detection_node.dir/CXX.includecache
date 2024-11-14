@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/me588/catkin_ws/src/sensors/src/color_detection_node.cpp
+iostream
+-
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+fcntl.h
+-
+errno.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+sys/time.h
+-
+sys/ioctl.h
+-
+linux/videodev2.h
+-
+

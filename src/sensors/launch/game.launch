@@ -1,0 +1,18 @@
+<launch>
+
+ 
+  <node name="IMU_Node" pkg="sensors" type="imu.py" output="screen"/>
+  
+
+  <node name="Encoder_Node" pkg="sensors" type="encoder.py" output="screen"/>
+  
+  <!--
+  <node name="Color_Detection_Node" pkg="sensors" type="color_detection.py" output="screen"/>
+  
+  -->
+  <node name="Follow_Path_Node" pkg="robot_control" type="follow_path.py" output="screen"/>
+  
+  
+  <node name="Central_Node" pkg="robot_control" type="playgame.py" output="screen"/>
+  
+</launch>
